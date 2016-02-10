@@ -6,6 +6,7 @@ public class ExceptionApplication {
 		// TODO Auto-generated method stub
 
 		try {
+			@SuppressWarnings("unused")
 			Employee emp = new Employee("asdf", "skilled", 101, 5000);
 		} catch (EmpException e) {
 			// TODO Auto-generated catch block

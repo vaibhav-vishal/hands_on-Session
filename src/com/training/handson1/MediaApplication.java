@@ -18,6 +18,7 @@ public class MediaApplication {
 		periodicals[0] = new Periodicals("Cosmopolitan", "Time magine", 10, 3, 7, "Business", 4);
 		periodicals[1] = new Periodicals("Forbes", "Forbes Magine", 18, 4, 12, "Business", 22);
 		
+		@SuppressWarnings("resource")
 		Scanner sc= new Scanner(System.in);
 		
 		int flag=1;

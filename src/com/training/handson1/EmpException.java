@@ -2,6 +2,10 @@ package com.training.handson1;
 
 public class EmpException extends Exception {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private long salary;
 	public EmpException(long salary) {
 		// TODO Auto-generated constructor stub
